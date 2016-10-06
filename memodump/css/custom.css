@@ -2,3 +2,75 @@ body {
        font-size: 17px;
        line-height: 1.7em;
 }
+
+a.navbar-brand {
+	padding: 0 !important;
+}
+
+a.navbar-brand img {
+	height: 50px;
+}
+
+.navbar {
+	background-image: none;
+	background-color: #dc0067;
+	color: white !important;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+@media only screen and (max-width: 768px)  {
+	.navbar-inverse .dropdown-header {
+		color: #d2d2d2;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: white;
+	}
+}
+
+.navbar-inverse .dropdown-header:before {
+	content: "- "
+}
+
+.navbar-inverse .dropdown-header:after {
+	content: " -"
+}
+
+
+.navbar .disabled a {
+	color: #A3B3DA !important;
+}
+
+.navbar .navbar-form {
+	border-color: #14629C !important;
+}
+
+.navbar-inverse .navbar-btn:hover, .navbar-inverse .navbar-btn:focus,.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #14629C;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-btn {
+	border-color: #14629C;
+}
+
+.navbar-collapse {
+	border-color: #14629C !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #6f6f6f !important;
+}
+
+.navbar-nav>.active>a {
+	background-color: #6f6f6f !important;
+	background-image: none !important;
+	box-shadow: none !important;
+}
+
+#contentbox img {
+	margin: 10px 20px;
+}
