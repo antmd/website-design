@@ -108,6 +108,7 @@ class Theme(ThemeBase):
         ('all',         'bootstrap-theme.min'),
         ('all',         'memodump'),
         ('all',         'moinizer'),
+        ('all',         'custom')
     )
     stylesheets_print = (
         ('all',         'bootstrap.min'),
