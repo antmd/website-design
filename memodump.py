@@ -137,8 +137,37 @@ class Theme(ThemeBase):
 
         html = u"""
   <div id="outbox" class="sidebar-toggle">
+<header>
+  <div id="stickyNav">
+    <div class="container clearfix">
+      <h1 id="logo">LOGO</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<script>
+var header = document.querySelector("header");
+var stickyNav = document.querySelector("#stickyNav");
+
+// TODO: throttle this function for optimal performance in production
+window.addEventListener('scroll', function(e){
+  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+  var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
+  if(scrollPos > stickyLine){
+    stickyNav.classList.add("fixed");
+  }else if(stickyNav.classList.contains('fixed')){
+    stickyNav.classList.remove("fixed");
+  }
+});
+</script>
+
     <!-- Bootstrap navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top navbar-mobile-toggle" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-mobile-toggle" role="navigation" style="display:none;">
       <div class="container">
 
         <!-- Navbar header -->
@@ -296,7 +325,7 @@ class Theme(ThemeBase):
         """
         Append in-html script at the bottom of the page body.
         """
-        
+
         return ur"""
   <script>
     +function ($) {
@@ -307,7 +336,7 @@ class Theme(ThemeBase):
       $('.navbar-collapse').on('hidden.bs.collapse', function () {
         $('.navbar-mobile-toggle').togglejs('hide');
       });
-      
+
       //Scroll position fix for hash anchors
       var mdAnchorFix = {
         escapeRe: /[ !"#$%&'()*+,.\/:;<=>?@\[\\\]^`{|}~]/g,
@@ -353,7 +382,7 @@ class Theme(ThemeBase):
     }(jQuery);
   </script>
 """
-    
+
     def logo(self):
         """ Assemble logo with link to front page
         Using <a> tag only instead of wrapping with div

@@ -79,3 +79,57 @@ a.navbar-brand img {
 	color: rgba(224, 159, 1, 1) !important;
 	background-color: rgba(255, 180, 0, 0.15) !important;
 }
+
+header {
+	position:relative;
+	width: 100%;
+	height: 300px;
+	background: url(http://www.wallpaperup.com/uploads/wallpapers/2012/08/11/10513/big_thumb_75ee7e16a68612f0cba61b4f51375797.jpg) #3e9fd7 center center;
+}
+
+header #stickyNav{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color:transparent;
+	box-shadow:none;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	transform: translate3d(0, 0, 0);
+}
+
+#outbox {
+	padding-top: 0;
+}
+
+header #stickyNav.fixed {
+            position: fixed;
+            top: 0;
+            background-color:#FFF;
+            box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.2);
+			z-index: 10;
+
+        }
+
+header #stickyNav.fixed a { color: #8585EA; border-color:#FFF; }
+header #stickyNav h1 { color: #3e9fd7; }
+
+header #stickyNav
+	h1 { float:left; color:#fff; font-size:2.5rem; transition: color .3s ease; }
+
+header #stickyNav nav { float:right;
+
+      }
+
+header #stickyNav nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .4rem .8rem;
+  border-bottom:2px solid transparent;
+  transition: color 0.3s ease, border 0.3s ease;
+
+
+}
+
+header #stickyNav nav a:hover { color:#000; border-color:#000; }
