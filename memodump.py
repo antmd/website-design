@@ -138,17 +138,21 @@ class Theme(ThemeBase):
         html = u"""
   <div id="outbox" class="sidebar-toggle">
 <header>
+
+  <a href="/"><div class="logo container"></div></a>
+
   <div id="stickyNav">
     <div class="container clearfix">
-      <h1 id="logo">LOGO</h1>
+      <a href="/" id="logo"></a>
       <nav>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
+        <a href="#">Karte</a>
+        <a href="#">Forum</a>
         <a href="#">Link</a>
         <a href="#">Link</a>
       </nav>
     </div>
   </div>
+
 </header>
 <script>
 var header = document.querySelector("header");
@@ -307,6 +311,7 @@ window.addEventListener('scroll', function(e){
   <!-- toggle.js by dossist -->
   <script src="%(prefix)s/%(theme)s/js/toggle.js"></script>
   <!-- Custom script -->
+  <script src="%(prefix)s/%(theme)s/js/svg_animation.js"></script>
 %(script)s
   <!-- End of JavaScript -->
 """ % {'pageinfo': self.pageinfo(page),
