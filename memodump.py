@@ -147,7 +147,7 @@ class Theme(ThemeBase):
       <nav>
         <a href="#">Karte</a>
         <a href="#">Forum</a>
-        <a href="#">Link</a>
+        <a href="#">Chat</a>
         <a href="#">Link</a>
       </nav>
     </div>
