@@ -117,7 +117,7 @@ header div.logo {
 header #stickyNav.fixed {
 	position: fixed;
 	top: 0;
-	background-color:#FFF;
+	background-color: rgba(255, 255, 255, 0.9);
 	box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.2);
 	z-index: 10;
 
