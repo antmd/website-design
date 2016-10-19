@@ -154,3 +154,33 @@ header #stickyNav nav a {
 }
 
 header #stickyNav nav a:hover { color:#000; border-color:#000; }
+
+.chat {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.chat .box {
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	clear: both;
+}
+
+.chat-name-alice .box {
+	float: left;
+	margin-right: 10%;
+}
+
+.chat-name-bob .box{
+	float: right;
+	margin-left: 10%;
+	background-color: rgba(0, 158, 224, 0.1);
+}
+
+.chat .name {
+	font-weight: bold;
+}
+
+.chat .name:after {
+	content: ":";
+}
