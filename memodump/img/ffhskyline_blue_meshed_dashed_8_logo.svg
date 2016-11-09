@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="4.3802881"
-     inkscape:cy="-596.97376"
+     inkscape:zoom="1.4"
+     inkscape:cx="418.8126"
+     inkscape:cy="-62.537718"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="958"
-     inkscape:window-height="1059"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
-     inkscape:window-y="19"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4942">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,32 +53,30 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-822.04724)">
-    <path
-       style="opacity:1;fill:#ffffff;fill-opacity:0.67875648;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.19170987"
-       d="M 141.4707,833.79051 A 105,105 0 0 0 36.470703,938.7905 a 105,105 0 0 0 104.999997,105 105,105 0 0 0 101.30469,-77.86523 l 514.78125,0 c 6.62872,0 11.96484,-5.33613 11.96484,-11.96484 l 0,-29.06055 c 0,-6.62871 -5.33612,-11.96484 -11.96484,-11.96484 l -514.41211,0 A 105,105 0 0 0 141.4707,833.79051 Z"
-       id="rect4394-2"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:41.97611618px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dc0067;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="262.26608"
        y="907.33624"
        id="text4346"
-       sodipodi:linespacing="125%"
+       sodipodi:linespacing="256.99995899%"
        transform="scale(0.95143505,1.0510439)"><tspan
          sodipodi:role="line"
          id="tspan4348"
          x="262.26608"
          y="907.33624"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';fill:#dc0067;fill-opacity:0.94117647"><tspan
-           style="fill:#dc0067;fill-opacity:0.72255488"
-           id="tspan4420">hannover</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';opacity:0.98999999;fill:#dc0067;fill-opacity:0.94117647;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#dc0067;fill-opacity:1;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%"
+           id="tspan4420"
+           dx="0">hannover</tspan><tspan
            id="tspan4424"
-           style="fill:#ffd331;fill-opacity:1;stroke:none;stroke-opacity:0.19170987">.</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';fill:#000000;fill-opacity:0.61876251"
-           id="tspan4400">freifunk<tspan
-   style="fill:#ffce00;fill-opacity:1"
-   id="tspan4426">.</tspan>net</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#ffd331;fill-opacity:1;stroke:none;stroke-opacity:0.19170987;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%">.</tspan><tspan
+           id="tspan4164"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#4d4d4d;fill-opacity:1;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%">freifunk</tspan><tspan
+           id="tspan4166"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#ffce00;fill-opacity:1;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%">.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#999999;fill-opacity:1;word-spacing:0px;letter-spacing:5.3799969px;line-height:256.99995899%"
+           id="tspan4400">net</tspan></tspan></text>
     <g
        id="g4295"
        transform="matrix(0.79173585,0,0,0.76093832,81.94066,873.16183)">
