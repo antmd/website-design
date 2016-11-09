@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="418.8126"
-     inkscape:cy="-62.537718"
+     inkscape:cx="461.76182"
+     inkscape:cy="-15.641128"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,6 +53,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-822.04724)">
+    <g
+       id="g4172"
+       style="fill:#cecece;fill-opacity:0.44878048">
+      <path
+         id="path4168"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:0.6682927;stroke:none;stroke-width:1.49800003;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.34951459"
+         d="m 236.15842,937.56635 a 94.102226,94.102226 0 0 1 -94.10222,94.10225 94.102226,94.102226 0 0 1 -94.102228,-94.10225 94.102226,94.102226 0 0 1 94.102228,-94.10223 94.102226,94.102226 0 0 1 94.10222,94.10223 z m -30.44583,-35.73719 481.83392,0 c 1.96113,0 3.53995,1.57882 3.53995,3.53995 l 0,64.64094 c 0,1.96113 -1.57882,3.53995 -3.53995,3.53995 l -481.83392,0 c -1.96113,0 -3.53995,-1.57882 -3.53995,-3.53995 l 0,-64.64094 c 0,-1.96113 1.57882,-3.53995 3.53995,-3.53995 z" />
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:41.97611618px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dc0067;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
