@@ -119,7 +119,7 @@ header div.logo {
 
   header div.logo {
     background-position-x: 50%;
-    background: url(/moin_static198/memodump/img/ffhskyline_blue_meshed_dashed_8_logo_small.svg);
+    background-image: url(/moin_static198/memodump/img/ffhskyline_blue_meshed_dashed_8_logo_small.svg);
   }
 }
 
