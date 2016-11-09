@@ -121,6 +121,19 @@ header div.logo {
 	height: 100%;
 }
 
+@media screen and (max-width: 730px) {
+  header {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-color: #d0f2fd;
+  }
+
+  header div.logo {
+    background-position-x: 50%;
+    background: url(/moin_static198/memodump/img/ffhskyline_blue_meshed_dashed_8_logo_small.svg);
+  }
+}
+
 #outbox {
 	padding-top: 0;
 }
@@ -137,6 +150,7 @@ header #stickyNav.fixed {
 header #stickyNav.fixed a#logo {
 	display: block;
 	width: 390px;
+	background-color: rgba(255, 255, 255, 0.5);
 	background: url(/moin_static198/memodump/img/ffh_logo_3.svg);
 	background-repeat: no-repeat;
 	float: left;
