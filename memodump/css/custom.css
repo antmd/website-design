@@ -1,7 +1,12 @@
 body {
        font-size: 17px;
        line-height: 1.7em;
-	background-color: rgba(204, 0, 97, 0.07);
+	background: linear-gradient(to bottom,
+		white 0px,
+		white 250px,
+		rgba(61, 178, 230, 0.17) 250px,
+		white 500px
+	);
 }
 
 #pagebox {
