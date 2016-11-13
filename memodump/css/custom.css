@@ -1,6 +1,11 @@
 body {
        font-size: 17px;
        line-height: 1.7em;
+	background-color: rgba(204, 0, 97, 0.07);
+}
+
+#pagebox {
+	background-color: white;
 }
 
 a.navbar-brand {
@@ -107,6 +112,7 @@ header h1#logo {
 header div.logo {
 	background: url(/moin_static198/memodump/img/ffhskyline_blue_meshed_dashed_8_logo.svg);
 	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0.5);
 	height: 100%;
 }
 
