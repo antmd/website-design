@@ -222,7 +222,7 @@ window.addEventListener('scroll', function(e){
       <!-- Sidebar -->
       <div class="sidebar-toggle" id="sidebar-curtain">
         <div class="sidebar-toggle" id="sidebar-mover">
-          <div class="sidebar-toggle" id="sidebar" role="navigation">
+          <div class="sidebar-toggle" role="navigation">
 <!-- SideBar contents -->
 %(sidebar)s
 <!-- End of SideBar contents -->
