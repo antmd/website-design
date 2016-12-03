@@ -214,6 +214,9 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
  *  Sidebar
  */
 
+.treesidebar {
+  padding: 30px;
+}
 
 .treesidebar ul {
   margin:0;
