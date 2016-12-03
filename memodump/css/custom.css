@@ -215,18 +215,18 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
  */
 
 
-.sidebar ul {
+.treesidebar ul {
   margin:0;
   padding:0;
   list-style-type: none;
 }
 
-.sidebar ul ul {
+.treesidebar ul ul {
   position:relative;
   margin-left:10px;
 }
 
-.sidebar ul li  {
+.treesidebar ul li  {
   position:relative;
   margin:0;
   padding:6px 12px;
@@ -238,19 +238,19 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
   line-height:20px;
 }
 
-.sidebar ul li a {
+.treesidebar ul li a {
   color:#333;
   text-decoration: none;
 }
 
-.sidebar ul li a:hover,
-.sidebar ul li a:hover+ul li a {
+.treesidebar ul li a:hover,
+.treesidebar ul li a:hover+ul li a {
   color: RGBA(213, 235, 227, 1);
 }
 
 /* hierarchical lines */
 
-.sidebar ul ul:before {
+.treesidebar ul ul:before {
   content:"";
   display:block;
   position:absolute;
@@ -260,7 +260,7 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
   border-left: 1px solid #ccc;
 }
 
-.sidebar ul ul li:before {
+.treesidebar ul ul li:before {
   content: "";
   display: block;
   position: absolute;
@@ -270,7 +270,7 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
   border-top: 1px solid #ccc;
 }
 
-.sidebar ul ul li:last-child:before {
+.treesidebar ul ul li:last-child:before {
   top: 15px;
   bottom: 0;
   height: auto;
