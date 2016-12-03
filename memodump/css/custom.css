@@ -246,6 +246,10 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
   text-decoration: none;
 }
 
+.treesidebar ul li li a {
+  color:#666;
+}
+
 .treesidebar ul li a:hover,
 .treesidebar ul li a:hover+ul li a {
   color: RGBA(213, 235, 227, 1);
