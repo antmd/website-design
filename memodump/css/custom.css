@@ -247,6 +247,7 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
 }
 
 .treesidebar ul li li a {
+  text-transform: initial;
   color:#666;
 }
 
