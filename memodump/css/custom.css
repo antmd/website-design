@@ -232,7 +232,7 @@ header #stickyNav nav a:hover { color:#000; border-color:#000; }
 .treesidebar ul li  {
   position:relative;
   margin:0;
-  padding:6px 12px;
+  padding:6px 20px;
 
   color:#333;
   text-transform: uppercase;
